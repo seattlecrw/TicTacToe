@@ -29,6 +29,8 @@ class TicTacToe
     end
   end
 
+  private
+
   # Allows the current player to select a position and, if valid, plays
   def select_cell(player)
     puts "#{player.name}, please select a position for your #{player.marker}:"
